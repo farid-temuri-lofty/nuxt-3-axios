@@ -4,6 +4,7 @@
   "description": "Axios in Nuxt 3",
   "license": "MIT",
   "type": "module",
+  "repository": "https://github.com/farid-temuri-lofty/nuxt-3-axios/tree/axios-nuxt",
   "exports": {
     ".": {
       "types": "./dist/types.d.ts",
