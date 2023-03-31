@@ -1,6 +1,24 @@
 # Changelog
 
 
+## v1.3.0
+
+[compare changes](https://github.com/farid-temuri-lofty/nuxt-3-axios/compare/v1.2.1...v1.3.0)
+
+
+### 🚀 Enhancements
+
+  - Add axios pluging in module + types ([a90b845](https://github.com/farid-temuri-lofty/nuxt-3-axios/commit/a90b845))
+
+### 🏡 Chore
+
+  - Remove unnecessary files ([3effee7](https://github.com/farid-temuri-lofty/nuxt-3-axios/commit/3effee7))
+  - Add repo link ([86c38ab](https://github.com/farid-temuri-lofty/nuxt-3-axios/commit/86c38ab))
+
+### ❤️  Contributors
+
+- Farid
+
 ## v1.2.1
 
 [compare changes](https://github.com/farid-temuri-lofty/nuxt-3-axios/compare/v1.2.0...v1.2.1)
