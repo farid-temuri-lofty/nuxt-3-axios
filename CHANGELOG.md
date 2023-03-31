@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v1.2.1
+
+[compare changes](https://github.com/farid-temuri-lofty/nuxt-3-axios/compare/v1.2.0...v1.2.1)
+
 ## v1.2.0
 
 
