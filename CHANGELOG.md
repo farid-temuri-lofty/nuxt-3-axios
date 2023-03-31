@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v1.3.1
+
+[compare changes](https://github.com/farid-temuri-lofty/nuxt-3-axios/compare/v1.3.0...v1.3.1)
+
+
+### 🏡 Chore
+
+  - Update readme ([df9ddb1](https://github.com/farid-temuri-lofty/nuxt-3-axios/commit/df9ddb1))
+
+### ❤️  Contributors
+
+- Farid
+
 ## v1.3.0
 
 [compare changes](https://github.com/farid-temuri-lofty/nuxt-3-axios/compare/v1.2.1...v1.3.0)
