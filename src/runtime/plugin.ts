@@ -1,5 +1,14 @@
 import { defineNuxtPlugin } from '#app'
+import axios from 'axios'
 
-export default defineNuxtPlugin((nuxtApp) => {
-  console.log('Plugin injected by my-module!')
+
+export default defineNuxtPlugin(() => {
+  const axiosInstance = axios.create( {
+    baseURL: `${new Date()}`
+  })
+  return {
+    provide: {
+      axios:  axiosInstance 
+    } 
+  }
 })
