@@ -8,4 +8,7 @@
 </template>
 
 <script setup lang="ts">
+import { useNuxtApp } from '#app';
+
+const {$axios} = useNuxtApp()
 </script>
