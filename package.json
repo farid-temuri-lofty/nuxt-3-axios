@@ -5,6 +5,9 @@
   "license": "MIT",
   "type": "module",
   "repository": "https://github.com/farid-temuri-lofty/nuxt-3-axios/tree/axios-nuxt",
+  "keywords": [
+    "nuxt", "nuxt3", "axios", "typesafe", "isomorphic http", "ssr", "vue", "tajikistan"
+  ],
   "exports": {
     ".": {
       "types": "./dist/types.d.ts",
