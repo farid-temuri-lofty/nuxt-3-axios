@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v1.3.2
+
+[compare changes](https://github.com/farid-temuri-lofty/nuxt-3-axios/compare/v1.3.1...v1.3.2)
+
+
+### 🩹 Fixes
+
+  - Removed test data ([aea8a6e](https://github.com/farid-temuri-lofty/nuxt-3-axios/commit/aea8a6e))
+
+### ❤️  Contributors
+
+- Farid
+
 ## v1.3.1
 
 [compare changes](https://github.com/farid-temuri-lofty/nuxt-3-axios/compare/v1.3.0...v1.3.1)
