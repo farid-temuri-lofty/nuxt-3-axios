@@ -1,12 +1,19 @@
 {
   "name": "nuxt-3-axios",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Axios in Nuxt 3",
   "license": "MIT",
   "type": "module",
   "repository": "https://github.com/farid-temuri-lofty/nuxt-3-axios/tree/axios-nuxt",
   "keywords": [
-    "nuxt", "nuxt3", "axios", "typesafe", "isomorphic http", "ssr", "vue", "tajikistan"
+    "nuxt",
+    "nuxt3",
+    "axios",
+    "typesafe",
+    "isomorphic http",
+    "ssr",
+    "vue",
+    "tajikistan"
   ],
   "exports": {
     ".": {
