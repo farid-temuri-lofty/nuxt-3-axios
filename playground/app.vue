@@ -1,7 +1,8 @@
 <template>
   <div>
     Nuxt module playground!
-    <button>
+    {{ testData }}
+    <button @click="click">
       fetch
     </button>
   </div>
@@ -9,6 +10,14 @@
 
 <script setup lang="ts">
 import { useNuxtApp } from '#app';
+import { ref } from 'vue';
 
-const {$axios} = useNuxtApp()
+const { $axios } = useNuxtApp()
+
+const testData = ref('')
+
+const click = async() => {
+  testData.value = await $axios.get('/people/1')
+}
+
 </script>

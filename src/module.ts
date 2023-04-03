@@ -1,4 +1,4 @@
-import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
+import { defineNuxtModule, addPlugin, createResolver, addTemplate} from '@nuxt/kit'
 import { CreateAxiosDefaults } from 'axios'
 
 export interface ModuleOptions extends CreateAxiosDefaults {}
@@ -8,9 +8,13 @@ export default defineNuxtModule<ModuleOptions>({
     name: 'axios-nuxt-3',
     configKey: 'axios'
   },
-  defaults: {},
-  setup () {
+  setup( options ) {
     const resolver = createResolver(import.meta.url)
+
+    addTemplate( {
+      filename: 'axios-options.mjs', getContents() {
+      return `export const axiosOptions = ${JSON.stringify(options)}`
+    }})
 
     addPlugin(resolver.resolve('./runtime/plugin'))
   }

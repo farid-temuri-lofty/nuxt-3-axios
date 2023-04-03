@@ -1,4 +1,6 @@
 export default defineNuxtConfig({
   modules: ['../src/module'],
-  axios: {}
+  axios: {
+    baseURL: 'https://swapi.dev/api/'
+  }
 })
