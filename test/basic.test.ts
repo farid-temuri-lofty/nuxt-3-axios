@@ -1,15 +1,15 @@
 import { describe, it, expect } from 'vitest'
 import { fileURLToPath } from 'node:url'
 import { setup, $fetch } from '@nuxt/test-utils'
+import { useNuxtApp } from 'nuxt/app'
 
-describe('ssr', async () => {
+describe('$axios on', async () => {
   await setup({
     rootDir: fileURLToPath(new URL('./fixtures/basic', import.meta.url)),
   })
-
-  it('renders the index page', async () => {
-    // Get response to a server-rendered page with `$fetch`.
-    const html = await $fetch('/')
-    expect(html).toContain('<div>basic</div>')
-  })
+  it('ssr page', async () => {
+    const html = await $fetch( '/' )
+    console.log(html);
+    expect(html).toContain(`&quot;name&quot;: &quot;Luke Skywalker&quot;`)
+  } )
 })

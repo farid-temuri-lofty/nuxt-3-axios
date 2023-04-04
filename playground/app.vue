@@ -2,7 +2,7 @@
   <div>
     Nuxt module playground!
     {{ testData }}
-    <button @click="click">
+    <button>
       fetch
     </button>
   </div>
@@ -16,8 +16,6 @@ const { $axios } = useNuxtApp()
 
 const testData = ref('')
 
-const click = async() => {
-  testData.value = await $axios.get('/people/1')
-}
+testData.value = (await $axios.get('/people/1')).data
 
 </script>
