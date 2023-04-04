@@ -5,7 +5,6 @@ import { axiosOptions } from '#build/axios-options'
 
 export default defineNuxtPlugin(() => {
   const axiosInstance = axios.create(axiosOptions)
-  console.log(axiosOptions);
   return {
     provide: {
       axios:  axiosInstance 
