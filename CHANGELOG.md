@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v1.3.5
+
+[compare changes](https://github.com/farid-temuri-lofty/nuxt-3-axios/compare/v1.3.4...v1.3.5)
+
+
+### ✅ Tests
+
+  - Add ssr test ([271d886](https://github.com/farid-temuri-lofty/nuxt-3-axios/commit/271d886))
+
+### 🎨 Styles
+
+  - Remove log & dead code ([a7bd5d2](https://github.com/farid-temuri-lofty/nuxt-3-axios/commit/a7bd5d2))
+
+### ❤️  Contributors
+
+- Farid
+
 ## v1.3.4
 
 [compare changes](https://github.com/farid-temuri-lofty/nuxt-3-axios/compare/v1.3.3...v1.3.4)

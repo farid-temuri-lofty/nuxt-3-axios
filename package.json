@@ -1,6 +1,6 @@
 {
   "name": "nuxt-3-axios",
-  "version": "1.3.4",
+  "version": "1.3.5",
   "description": "Axios in Nuxt 3",
   "license": "MIT",
   "type": "module",
